@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-
+# reusable functions for mongodb operations
 def get_mongo_client():
     """Establishes a MongoDB client connection."""
     MONGO_URI = "mongodb+srv://followalong:Password123@cluster0.jcdn2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
