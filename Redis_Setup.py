@@ -1,5 +1,5 @@
 import redis
-
+# redis connection function
 def get_redis_client():
     """Establishes a Redis client connection."""
     redis_host = "redis-13496.c44.us-east-1-2.ec2.redns.redis-cloud.com"
